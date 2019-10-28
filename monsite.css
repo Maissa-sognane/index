@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: red;
+}
+div#container{
+    width: 1024px;
+    margin: 0 auto;
+}
+header{
+    display: grid;
+    grid-template-columns: 2;
+}
+div .entete{
+    float: left;
+}
+
+
+div form{
+    float: right;
+    margin-top: 20px;
+    
+}
+div form input{
+    padding-right: 150px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+div form button{
+    color: white;
+    background: orangered;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+header div.menu{
+    width: 100%;
+    overflow: auto;
+
+    
+}
+header div.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 60px;
+    display: flex;
+    border-bottom: 1 solid black;
+    
+}
+header div.menu ul li a{
+    text-decoration: none;
+    width: 200px;
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 0.2px;
+    color: orangered;
+      
+}
+header div.menu ul li a:hover{
+    color: royalblue;
+    background: black;
+    opacity: 0.5;
+    font-size: 20px;
+}
+section.acceuilexpert{
+    background: rgb(216, 211, 211);
+    display: flex;
+    
+	
+}
+section.acceuilexpert div.image1 img{
+    width: 350%;
+    height: 100%;
+}
+section.acceuilexpert div.text1{
+   padding-left: 27%;
+   text-align: center;
+   margin-top: 7%;
+   padding-right: 51%;
+    font-size: 293%;
+}
+section.acceuilexpert div.text1 span.titre{
+    padding-right: 37%;
+}
